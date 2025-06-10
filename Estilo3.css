@@ -6,47 +6,54 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  color: #333;
+  background-color: #1c1c1c;
+  color: #eee;
   padding: 20px;
   line-height: 1.5;
 }
 
 h1, h2, h3 {
-  color: #2c3e50;
+  color: #c8102e;
   margin-bottom: 10px;
+  text-shadow: 1px 1px 3px #000;
 }
 
 a {
-  color: #0077cc;
+  color: #c8102e;
   text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #fff;
 }
 
 .container {
   max-width: 1000px;
   margin: auto;
-  background-color: white;
+  background-color: #222;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  box-shadow: 0 0 20px rgba(200, 17, 46, 0.7);
+  color: #eee;
 }
 
 button {
-  background-color: #0077cc;
+  background-color: #c8102e;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background 0.3s ease;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(200, 17, 46, 0.8);
 }
 
 button:hover {
-  background-color: #005fa3;
+  background-color: #a00b18;
 }
 
 input, textarea {
@@ -54,22 +61,32 @@ input, textarea {
   padding: 10px;
   margin-top: 8px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #c8102e;
   border-radius: 4px;
+  background-color: #333;
+  color: #eee;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
 }
 
 nav {
-  background-color: #333;
+  background-color: #000;
   padding: 15px;
   border-radius: 5px;
+  box-shadow: 0 0 8px rgba(200, 17, 46, 0.8);
 }
 
 nav a {
-  color: white;
+  color: #eee;
   margin-right: 20px;
   font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 nav a:hover {
-  color: #ffd700;
+  color: #c8102e;
 }
+
