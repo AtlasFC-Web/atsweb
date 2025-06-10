@@ -16,6 +16,7 @@ body {
   font-size: 35px;
   color: white;
   height: auto;
+  padding: 10px 0;
 }
 
 .navbar {
@@ -53,6 +54,8 @@ body {
   width: 70%;
   height: 700px;
   background-color: #2b2b2b;
+  padding: 15px;
+  box-sizing: border-box;
 }
 
 #columna_publicidad {
@@ -60,6 +63,8 @@ body {
   width: 30%;
   height: 700px;
   background-color: #1a1a1a;
+  padding: 15px;
+  box-sizing: border-box;
 }
 
 #pie {
@@ -68,4 +73,9 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #c8102e;
+  height: 80px;
+  color: white;
+  font-weight: bold;
+}
+
 
